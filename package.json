@@ -1,0 +1,21 @@
+{
+  "name": "backlight-led-controller",
+  "version": "1.0.0",
+  "description": "Minimal controller script for monitor backlight LED strip",
+  "main": "",
+  "scripts": {
+  },
+  "dependencies": {
+    "node-hid": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maarsson-io/backlight-led-controller.git"
+  },
+  "author": "maarsson.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maarsson-io/backlight-led-controller/issues"
+  },
+  "homepage": "https://github.com/maarsson-io/backlight-led-controller#readme"
+}
