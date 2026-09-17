@@ -2,8 +2,11 @@
   "name": "backlight-led-controller",
   "version": "1.0.0",
   "description": "Minimal controller script for monitor backlight LED strip",
-  "main": "",
+  "main": "led-controller.js",
   "scripts": {
+    "list": "node led-controller.js list",
+    "on": "node led-controller.js on",
+    "off": "node led-controller.js off"
   },
   "dependencies": {
     "node-hid": "^3.4.0"
