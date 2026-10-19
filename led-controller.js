@@ -21,7 +21,11 @@ function packet(action, payload = []) {
 
 function findLight() {
   const devices = HID.devices().filter(
-    (device) => device.vendorId === VID && device.productId === PID,
+    (device) =>
+      device.vendorId === VID &&
+      device.productId === PID &&
+      device.usagePage === 0xff00 &&
+      device.usage === 1,
   );
 
   if (devices.length === 0) {
